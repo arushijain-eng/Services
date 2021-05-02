@@ -1,0 +1,43 @@
+.create-form {
+    background-color: white;
+    width: 50%;
+    height: 200px;
+    color: black;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-heading {
+    font-size: 18px;
+    height: 50px;
+    color: black;
+    padding-bottom:20px;
+}
+
+
+input {
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid;
+    font-size: 14px;
+    font-weight: 300;
+    color: black;
+    /*color: #797A9E;*/
+    letter-spacing: 0.11em;
+}
+
+input::placeholder {
+     color: #C3C3D8;
+     font-size: 12px;
+ }
+
+input:focus {
+     outline: 0;
+     border-bottom: 1px solid rgba($blue, 0.7);
+     transition: 0.6s all ease;
+ }

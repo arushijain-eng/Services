@@ -61,6 +61,7 @@ public class MainVerticle extends AbstractVerticle {
       .createHttpServer()
       .requestHandler(router)
       .listen(8080, result -> {
+        System.out.println("Listening...");
         if (result.succeeded()) {
           System.out.println("KRY code test service started");
           future.complete();
