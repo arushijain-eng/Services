@@ -1,5 +1,5 @@
 
-In the project directory (frontend-code-test/src/app), you can run:
+In the project directory (src/app), you can run:
 
 ### `yarn start`
 

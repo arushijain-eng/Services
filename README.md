@@ -51,7 +51,7 @@ You can also run gradle directly from the command line:
 
 # Building and Testing Frontend code
 
-In the project directory (frontend-code-test/src/app), you can run:
+In the project directory (/src/app), you can run:
 
 ### `yarn start`
 
